@@ -17,6 +17,7 @@ self.automaticallyAdjustsScrollViewInsets = NO;
 
 ###Content Mode Fix (auto layout)
 This project is set out to use Auto Layout as well. When the orientaion is changed the scrollView frame will automatically readjust itself. The issue with this is that the contentSize of the `UIScrollView` is changed to the frame and breaks the layout. To fix this we ammend the contentSize to the correct image size in the `-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation `
+[AutoLayout information](https://developer.apple.com/library/ios/technotes/tn2154/_index.html)
 
 Please submit a pull request for any additional features
 
