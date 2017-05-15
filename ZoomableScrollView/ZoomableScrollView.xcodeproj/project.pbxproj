@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3889F91EC9B952008242A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3889F81EC9B952008242A9 /* LaunchScreen.storyboard */; };
 		7EC27A5618842DAB00B173C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC27A5518842DAB00B173C4 /* Foundation.framework */; };
 		7EC27A5818842DAB00B173C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC27A5718842DAB00B173C4 /* CoreGraphics.framework */; };
 		7EC27A5A18842DAB00B173C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC27A5918842DAB00B173C4 /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3889F81EC9B952008242A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC27A5218842DAB00B173C4 /* ZoomableScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomableScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC27A5518842DAB00B173C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7EC27A5718842DAB00B173C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 				7EC27A6418842DAB00B173C4 /* AppDelegate.h */,
 				7EC27A6518842DAB00B173C4 /* AppDelegate.m */,
 				7EC27A6718842DAB00B173C4 /* Main_iPhone.storyboard */,
+				7E3889F81EC9B952008242A9 /* LaunchScreen.storyboard */,
 				7EC27A6D18842DAB00B173C4 /* ViewController.h */,
 				7EC27A6E18842DAB00B173C4 /* ViewController.m */,
 				7EC27A7018842DAB00B173C4 /* Images.xcassets */,
@@ -210,6 +213,7 @@
 				7EC27A7118842DAB00B173C4 /* Images.xcassets in Resources */,
 				7EC27A6918842DAB00B173C4 /* Main_iPhone.storyboard in Resources */,
 				7EC27A6018842DAB00B173C4 /* InfoPlist.strings in Resources */,
+				7E3889F91EC9B952008242A9 /* LaunchScreen.storyboard in Resources */,
 				7EC27A90188440B200B173C4 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +436,7 @@
 				7EC27A8918842DAB00B173C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EC27A8A18842DAB00B173C4 /* Build configuration list for PBXNativeTarget "ZoomableScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +445,7 @@
 				7EC27A8C18842DAB00B173C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
